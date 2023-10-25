@@ -1,5 +1,5 @@
 
-import { Container } from './styles'
+import { Container } from './style'
 
 export function Details() {
 
