@@ -1,6 +1,6 @@
-import { Container } from './styles.js';
+import { Container } from './styles';
 
-import { Button } from '../../components/Button';
+import { Button } from '../../components/Button/index.jsx';
 
 
 
