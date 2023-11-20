@@ -5,8 +5,8 @@ export function Header() {
         <Container>
             <Profile>
                 <img
-                    src="https://github.com/LucasAvenger"
-                    alt="foto de usuário" />
+                    src="https://github.com/settings/profile"
+                    alt="meu perfil" />
 
             </Profile>
 
