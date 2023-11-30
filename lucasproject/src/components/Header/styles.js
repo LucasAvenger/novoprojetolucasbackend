@@ -49,7 +49,7 @@ background:none;
 
 >svg {
     color:  ${({ theme }) => theme.COLORS.ORANGE};
-    font-size:24px;
+    font-size:36px;
 }
 
 `;
