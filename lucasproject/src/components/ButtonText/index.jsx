@@ -1,9 +1,14 @@
-import styled from 'styled-components';
+import { Container } from '.';
 
-export const Container = styled.button`
-background:none;
-color: ${({ theme }) => theme.COLORS.ORANGE};
+export function ButtonText({ title, ...rest }) {
 
-border:none;
-font-size:16px; 
-`;
+    return (
+        <Container
+            type="button"
+            {...rest}
+        >
+            {title}
+        </Container>
+
+    );
+}
